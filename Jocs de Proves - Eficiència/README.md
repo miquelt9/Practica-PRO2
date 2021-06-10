@@ -1,4 +1,4 @@
-Generador de samples de la pràctica de l'evaluator per fer proves d'eficiència
+# Generador de samples de la pràctica de l'evaluator per fer proves d'eficiència
 _______________________________________________________________________________
 
 En aquesta carpeta es pot trobar el fitxer generator.cc, generator.x i
@@ -8,7 +8,7 @@ segon fitxer.
 *Per poder executar aquest segon fitxer s'ha d'accedir a la terminal, a la
 carpeta on hem situat el fitxer i escriure:
 
-./generator.x > sample.inp
+> ./generator.x > sample.inp
 
 El qual ens genererà un nou fitxer sample.inp per poder provar el nostre programa evaluator
 Haurem de donar una sèrie de paràmetres segons la complexitat que volem obtenir
@@ -16,17 +16,17 @@ en el nostre input generat.
 
 Per provar el programa hauràs d'executar (sent evaluator.x el teu executable):
 
-time ./evaluator.x < sample.inp > sample.out
+> time ./evaluator.x < sample.inp > sample.out
 
 Per saber si el nivell d'eficiència del teu programa pots comparar-ho amb
 l'executable program.exe tal que:
 
-time ./program.exe < sample.inp > sample.cor
+> time ./program.exe < sample.inp > sample.cor
 
 Seguidament pots comprovar si hi ha diferències entre els dos resultats generats
 amb:
 
-diff sample.out sample.cor
+> diff sample.out sample.cor
 
 _______________________________________________________________________________
 
@@ -44,6 +44,8 @@ Com a idea general, el programa segueix els següents passos:
 
 4- Es repeteix tantes vegades com s'hagui indicat en els paràmetres, és a dir,
    fins a arribar al curs que conté tots els problemes.
+   
+5- Finalment demana que es realitzen instruccions de "sesión problema" 
 
 _______________________________________________________________________________
 *instruccions per a terminal de linux
