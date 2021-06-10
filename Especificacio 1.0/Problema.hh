@@ -1,0 +1,102 @@
+/** @file Problema.hh
+    @brief Especificación de la classe Problema
+*/
+
+#ifndef _PROBLEMA_HH_
+#define _PROBLEMA_HH_
+
+#ifndef NO_DIAGRAM
+#include <iostream>
+#include <string>
+#endif
+using namespace std;
+
+/** @class Problema
+    @brief Representa un problema del <em>Evaluator</em>
+*/
+class Problema
+{
+public:
+  //Constructoras
+
+  /** @brief Creadora por defecto
+
+      Se ejecuta automáticamente al declarar un problema
+      \pre  Cierto
+      \post El resultado és un problema con parámetros a 0
+  */
+  Problema();
+
+  /** @brief Creadora copiadora
+
+      Permite declarar un nuevo probema como copia de otro ya existente
+      \pre  Cierto
+      \post El resultado és un problema igual a p
+  */
+  Problema(const Problema& p);
+
+  /** @brief Creadora con nombre
+
+      Permite declarar un nuevo problema con nombre
+      \pre  Cierto
+      \post El resultado és un problema con nombre n; parámetros a 0
+  */
+  Problema(const string& n);
+
+  //Modificadoras
+
+  //Consultoras
+
+  /** @brief Consultora de enviable
+
+      \pre Cierto
+      \post Devuelve <em>true</em> si el problema és enviable,
+      en caso contrario devuelve <em>false</em>
+  */
+  bool se_puede_enviar() const;
+
+  /** @brief Consultora id
+
+      \pre Cierto
+      \post Devuelve el id del Problema
+  */
+  string consultar_id() const;
+
+  /** @brief Consultora ratio
+
+      \pre Cierto
+      \post Devuelve el ratio (envios realizados+1)/(envios correctos+1) =
+      (t+1)/(e+1) del Problema
+  */
+  double consultar_ratio() const;
+
+  /** @brief Envios realizados
+
+      \pre  Cierto
+      \post Devuelve en nº de envios que se han realizado a el parámetro implícito
+
+  //Lectura
+
+  /** @brief Operación de lectura
+
+      \pre Por el canal estándar de entrada hay un string
+      \post El contenido de la entrada es guardado en el parámetro implícito
+  */
+  void leer();
+
+  //Escriptura
+
+  /** @brief Operación de escritura
+
+      \pre  El Problema existe
+      \post Escribe el contenido del parámetro implícito por el canal estándar
+            de salida con el formato: identificador, nº de envios totales a ese
+            problema, el nº de envios correctos y el ratio (t+1)/(e+1)
+  */
+  void escribir() const;
+
+private:
+
+};
+
+#endif
