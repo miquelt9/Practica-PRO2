@@ -55,4 +55,4 @@ Nota_1: program.exe és l'executable d'un programa que ha passat tots els jocs d
       els jocs de proves generats haurem de basar-nos en la sortida generada
       per program.exe per saber si és correcte o no el nostre.
 
-Nota_2: a la carpeta també si inclouen els jocs d'entrada i sortida de complexitat 20
+Nota_2: a la carpeta també si inclouen els jocs d'entrada i sortida de complexitat 15
