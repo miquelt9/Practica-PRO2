@@ -1,3 +1,4 @@
+# Jocs de prova per la pràctica
 _____________________________________________________________________________________________________________________________________________
 Aquests jocs de proves han estat creats per Joan Caballero Castro (@JoanK11 a Github), l'enllaç en el que es poden trobar els originals https://drive.google.com/drive/u/1/folders/1t_ksvy2a_4PSQkjfpI-0bEetr_6QEVR_
 accesibles amb el correu @estudiantat.upc.edu
@@ -24,6 +25,6 @@ Extra: Si voleu comparar la vostra eficiència amb un executable acceptat pel Ju
   
 El “ > /dev/null” és perquè no us escrigui l’output i us sigui més fàcil comprovar.
 
-_________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________
 
 Els jocs ef6.cor i ef7.cor no estan pujats donada la seva mida. No obstant es poden generar utilitzant el fitxer joan.exe
