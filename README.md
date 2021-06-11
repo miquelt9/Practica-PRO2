@@ -28,4 +28,4 @@ En quant a les carpeta que contenen jocs de prova:
 - La carpeta [Jocs de Proves - Pràctica](https://github.com/miquelt9/Practica-PRO2/tree/main/Jocs%20de%20Proves%20-%20Pr%C3%A0ctica) conté jocs de prova que tests les diverses funcionalitats de la pràctica, els diversos tests que s'hi poden crear han estat creats per [@JoanK11](https://github.com/JoanK11)
 - La carpeta [Jocs de Proves - Eficiència](https://github.com/miquelt9/Practica-PRO2/tree/main/Jocs%20de%20Proves%20-%20Efici%C3%A8ncia) conté un generador de tests per provar la eficiència d'un programa
 
-Per fer-ne ús dels jocs de proves es trobaran les instruccions necessàries a les respectives carpetes.
+Per fer ús dels jocs de proves es trobaran les instruccions necessàries a les respectives carpetes.
