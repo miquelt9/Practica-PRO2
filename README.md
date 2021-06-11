@@ -20,7 +20,27 @@ ________________________________________________________________________
 - La carpeta [Evaluator 1.2](https://github.com/miquelt9/Practica-PRO2/tree/main/Evaluator%201.2) conté la versió que passa la entrega intermèdia del Jutge ([Entrega Intermedia](https://jutge.org/problems/X79318_es))
 - La carpeta [Evaluator 2.3](https://github.com/miquelt9/Practica-PRO2/tree/main/Evaluator%202.3) conté la versió que passa la entrega final del Jutge ([Entrega Final](https://jutge.org/problems/X67518_es))
 
-
+### Execució
+_________________________________________________________________________
+- A cadascuna de les carpetes hi trobareu un fitxer `Makefile` el qual us permetrà crear un fitxer executable de la versió de la carpeta.
+  Per utilitzar el `Makefile` heu de nevagar des de terminal fins a la carpeta on heu guardat els arxius i utilizat la instrucció 
+  ```sh
+    make
+  ```
+- A més a més, a cada carpeta també hi trobareu un fitxer `Doxyfile` el qual us permetrà crear la documentació corresponent a cada carpeta. Per fer-ho s'utilitza   el programa [Doxygen](https://www.doxygen.nl/index.html) ([Doxygen repository](https://github.com/doxygen/doxygen)) i [Graphviz](https://graphviz.org/) ([Graphviz Repository](https://gitlab.com/graphviz/graphviz/)). Per instalar-lo en Debian es poden fer manualment a través dels repositoris o bé amb les següents instruccions:
+```sh
+  sudo apt install doxygen
+  sudo apt install graphviz
+  sudo apt update
+```
+- Per crear la doxumentació s'ha de navegar fins la carpeta de la versió desitjada i utilizar la instrucció
+```sh
+  doxygen
+```
+- Seguidament, per obrir-ho podem emprar la instrucció
+```sh
+  xdg-open DOC/html/index.html
+```
 
 ### Jocs de prova
 ___________________________________________________________________________
