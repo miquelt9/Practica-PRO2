@@ -1,4 +1,10 @@
 # Practica-PRO2
+[![HitCount](https://hits.dwyl.com/miquelt9/Practica-PRO2.svg?style=flat-square&show=unique)](http://hits.dwyl.com/miquelt9/Practica-PRO2)
+[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat&show=unique)](/CONTRIBUTING.md)
+[![GitHub stars](https://img.shields.io/github/stars/miquelt9/Practica-PRO2.svg)](https://GitHub.com/miquelt9/Practica-PRO2/stargazers/)
+[![GitHub forks](https://img.shields.io/github/forks/miquelt9/Practica-PRO2.svg)](https://GitHub.com/miquelt9/Practica-PRO2/network/)
+[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/miquelt9/Practica-PRO2.svg)](https://github.com/miquelt9/Practica-PRO2)
+[![GitHub contributors](https://img.shields.io/github/contributors/miquelt9/Practica-PRO2.svg)](https://GitHub.com/miquelt9/Practica-PRO2/graphs/contributors/)
 
 ### Informació general
 ________________________________________________________________________
